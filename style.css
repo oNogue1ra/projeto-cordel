@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300..900&family=Sriracha&display=swap');
+
+:root {
+--fonte1:  "Passion One", sans-serif;
+--fonte2: Verdana, Geneva, Tahoma, sans-serif;
+--fonte3: "Sriracha", cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    /* width: 100vw; */
+    margin: 0px;
+}
+
+header {
+    color: white;
+    background-color: black;
+    font-family: var(--fonte1);
+    min-height: 150px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 7em;
+    margin: 0px;
+    padding-top: 50px;
+}
+
+header > p {
+    font-family: var(--fonte2);
+    padding-bottom: 50px;
+    font-size: 1em;
+}
+
+section {
+    font-family: var(--fonte3);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+section.imagem {
+    background-color: rgba(0, 0, 0, 0.362);
+    color: white;
+    box-shadow: inset 7px 5px 14px 0px rgba(0, 0, 0, 0.269);
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.381);
+    text-shadow: 1px 1px 0px black;
+}
+
+#joaninha {
+    background: url(images/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#jornal {
+    background-image: url(images/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
