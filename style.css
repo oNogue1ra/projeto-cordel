@@ -20,13 +20,13 @@ html,body {
     min-height: 100vh;
 }
 
-a {
+header a, footer a {
     color: white;
     font-weight: bolder;
     text-decoration: none;
 }
 
-header a:root footer a:root{
+header a:hover, footer a:hover{
     text-decoration: underline;
 }
 
@@ -56,6 +56,10 @@ section {
     padding-left: 30px;
     font-size: 3.5vw;
     font-weight: 400;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 section.imagem {
