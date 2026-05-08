@@ -16,8 +16,6 @@
 
 body {
     min-height: 100vh;
-    /* width: 100vw; */
-    margin: 0px;
 }
 
 header {
@@ -42,6 +40,7 @@ header > p {
 
 section {
     font-family: var(--fonte3);
+    line-height: 2em;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
@@ -74,4 +73,11 @@ section.imagem > p {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
